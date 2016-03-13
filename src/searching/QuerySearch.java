@@ -988,9 +988,10 @@ public class QuerySearch {
             
             
         }else{
-            logger.info("QueryIndex (index) (topics_file) (query_model_file) (qrels_file) \n\n"
+            logger.info("QueryIndex (index) (topics_file) (query_bg_model_file) (qrels_file) \n\n"
                     + "\t\"index\" is the lucene index directory\n"
                     + "\t\"topics_file\" is the trec topics file\n"
+                    + "\t\"query_bg_model_file\" is a trec topics file to create a background query model from\n"
                     + "\t\"qrels\" is the qrels file (binary relevance is assumed)\n"
                     + "\n\n\tNote: The estimate of the background model is calculated each time. "
                     + "\n\t      It could be stored in the index once its calculated to save time.\n"

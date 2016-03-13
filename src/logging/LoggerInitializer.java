@@ -40,7 +40,7 @@ public class LoggerInitializer {
     //logger.setLevel(Level.INFO);
 
     
-    logfile = new FileHandler("robust.txt" );
+    logfile = new FileHandler("test.txt" );
     
     logger.addHandler(logfile);
     logfile.setFormatter(formatter);
